@@ -1,1 +1,26 @@
 @import "tailwindcss";
+
+@theme {
+    --color-primary: oklch(0.9306 0.2184 124.08);
+    --color-gray-10: oklch(0.2134 0 0);
+    --color-gray-11: oklch(0.2264 0 0);
+    --color-gray-15: oklch(0.2686 0 0);
+}
+
+@layer base {
+    body {
+        background-color: var(--color-gray-10);
+        font-size: var(--text-lg);
+        color: var(--color-white);
+    }
+}
+
+@layer components {
+    .btn {
+        display: inline-flex;
+        background-color: var(--color-primary);
+        color: var(--color-gray-11);
+        border-radius: calc(infinity * 1px);
+        padding: 14px 30px;
+    }
+}
