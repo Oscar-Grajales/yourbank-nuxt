@@ -1,7 +1,10 @@
 <template>
-    <header class="fixed inset-0 z-50 mt-12.5 px-4">
+    <header class="fixed inset-0 z-50 h-fit mt-12 px-40">
         <div class="w-full max-w-400 mx-auto px-8.5 py-5 flex justify-between items-center gap-4 bg-gray-11 border border-gray-15 rounded-full">
-            <img src="~/assets/img/logo.png" alt="YourBanK logo">
+            <img
+                src="~/assets/img/logo.png"
+                alt="YourBanK logo"
+            >
             <nav class="flex items-center gap-6">
                 <NuxtLink
                     v-for="item in navigationItems"
@@ -13,8 +16,18 @@
                 </NuxtLink>
             </nav>
             <div>
-                <NuxtLink to="/sign-up" class="mr-7.5">Sign Up</NuxtLink>
-                <NuxtLink to="/sign-in" class="btn">Login</NuxtLink>
+                <NuxtLink
+                    to="/sign-up"
+                    class="mr-7.5"
+                >
+                    Sign Up
+                </NuxtLink>
+                <NuxtLink
+                    to="/sign-in"
+                    class="btn"
+                >
+                    Login
+                </NuxtLink>
             </div>
         </div>
     </header>
