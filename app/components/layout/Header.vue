@@ -6,14 +6,14 @@
                 alt="YourBanK logo"
             >
             <nav class="flex items-center gap-6">
-                <NuxtLink
+                <NuxtLinkLocale
                     v-for="item in navigationItems"
                     :key="item.url"
                     :to="item.url"
                     active-class="px-6 py-3 bg-gray-15 rounded-full"
                 >
                     {{ item.label }}
-                </NuxtLink>
+                </NuxtLinkLocale>
             </nav>
             <div>
                 <NuxtLink
@@ -28,12 +28,15 @@
                 >
                     Login
                 </NuxtLink>
+                <LanguageSwitcher class="ml-4" />
             </div>
         </div>
     </header>
 </template>
 
 <script setup lang="ts">
+import LanguageSwitcher from '../ui/LanguageSwitcher.vue'
+
 type NavigationItem = {
     label: string
     url: string
