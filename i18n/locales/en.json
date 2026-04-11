@@ -1,3 +1,13 @@
 {
-  
+  "brand": {
+    "logo_alt": "YourBanK logo"
+  },
+  "navigation": {
+    "home": "Home",
+    "careers": "Careers",
+    "about": "About",
+    "security": "Security"
+  },
+  "sign_up": "Sign Up",
+  "login": "Login"
 }

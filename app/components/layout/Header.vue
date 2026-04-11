@@ -3,7 +3,7 @@
         <div class="w-full max-w-400 mx-auto px-8.5 py-5 flex justify-between items-center gap-4 bg-gray-11 border border-gray-15 rounded-full">
             <img
                 src="~/assets/img/logo.png"
-                alt="YourBanK logo"
+                :alt="$t('brand.logo_alt')"
             >
             <nav class="flex items-center gap-6">
                 <NuxtLinkLocale
@@ -12,22 +12,22 @@
                     :to="item.url"
                     active-class="px-6 py-3 bg-gray-15 rounded-full"
                 >
-                    {{ item.label }}
+                    {{ $t(`navigation.${item.key}`) }}
                 </NuxtLinkLocale>
             </nav>
             <div>
-                <NuxtLink
+                <NuxtLinkLocale
                     to="/sign-up"
                     class="mr-7.5"
                 >
-                    Sign Up
-                </NuxtLink>
-                <NuxtLink
+                    {{ $t('sign_up') }}
+                </NuxtLinkLocale>
+                <NuxtLinkLocale
                     to="/sign-in"
                     class="btn"
                 >
-                    Login
-                </NuxtLink>
+                    {{ $t('login') }}
+                </NuxtLinkLocale>
                 <LanguageSwitcher class="ml-4" />
             </div>
         </div>
@@ -38,25 +38,25 @@
 import LanguageSwitcher from '../ui/LanguageSwitcher.vue'
 
 type NavigationItem = {
-    label: string
+    key: string
     url: string
 }
 
 const navigationItems: NavigationItem[] = [
     {
-        label: "Home",
+        key: "home",
         url: "/",
     },
     {
-        label: "Careers",
+        key: "careers",
         url: "/careers",
     },
     {
-        label: "About",
+        key: "about",
         url: "/about",
     },
     {
-        label: "Security",
+        key: "security",
         url: "/security",
     },
 ]
