@@ -25,6 +25,6 @@
 </template>
 
 <script setup lang="ts">
-import VerifiedIcon from '../icons/VerifiedIcon.vue';
+import VerifiedIcon from '../icons/filled/VerifiedIcon.vue';
 import Section from '../layout/Section.vue';
 </script>
