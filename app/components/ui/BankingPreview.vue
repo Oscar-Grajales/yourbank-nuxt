@@ -74,7 +74,7 @@
         </div>
       </div>
     </div>
-    <div class="absolute -right-11 w-fit mt-3 p-2 flex items-center gap-2.5 bg-[#22251B] rounded-full">
+    <div class="translate-x-13 w-fit mt-3 ml-auto mb-4.5 p-2 flex items-center gap-2.5 bg-[#22251B] rounded-full">
       <span class="ml-3 text-base">{{ $t('home.hero.banking_preview.supported_currency') }}</span>
       <div class="p-2 flex gap-1.5 bg-gray-10 rounded-full">
         <div

@@ -11,6 +11,11 @@
   "sign_up": "Registrarse",
   "login": "Acceder",
 
+  "audience": {
+    "individuals": "Para particulares",
+    "businesses": "Para empresas"
+  },
+
   "home": {
     "hero": {
       "badge": "Sin LLC, sin verificación de crédito.",
@@ -45,6 +50,33 @@
         },
 
         "supported_currency": "Monedas admitidas"
+      }
+    },
+
+    "our_products": {
+      "header": {
+        "title": "Nuestros {highlight}",
+        "highlight": "Productos",
+        "description": "Descubre en YourBanK una amplia gama de productos bancarios completos y personalizables, diseñados para adaptarse a tus necesidades y objetivos financieros particulares"
+      },
+
+      "individuals": {
+        "checking_accounts": {
+          "title": "Cuentas Corrientes",
+          "description": "Disfrute de un acceso fácil y cómodo a sus fondos con nuestra gama de opciones de cuentas corrientes. Aproveche ventajas como la banca online y móvil, las tarjetas de débito y el acceso gratuito a cajeros automáticos."
+        },
+        "savings_accounts": {
+          "title": "Cuentas de Ahorro",
+          "description": "Aumente sus ahorros con nuestros tipos de interés competitivos y nuestras opciones flexibles de cuentas de ahorro. Tanto si está ahorrando para un objetivo concreto como si desea hacer crecer su patrimonio con el tiempo, tenemos la cuenta adecuada para usted."
+        },
+        "loans_mortgages": {
+          "title": "Préstamos e Hipotecas",
+          "description": "Haga realidad sus sueños con nuestras opciones flexibles de préstamos e hipotecas. Desde préstamos personales hasta hipotecas para la vivienda, nuestros experimentados agentes de préstamos están aquí para guiarle a lo largo del proceso de solicitud y ayudarle a conseguir los fondos que necesita."
+        }
+      },
+
+      "businesses": {
+
       }
     }
   }
