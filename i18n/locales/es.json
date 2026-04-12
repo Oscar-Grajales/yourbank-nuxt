@@ -9,5 +9,43 @@
     "security": "Seguridad"
   },
   "sign_up": "Registrarse",
-  "login": "Acceder"
+  "login": "Acceder",
+
+  "home": {
+    "hero": {
+      "badge": "Sin LLC, sin verificación de crédito.",
+
+      "title": {
+        "line1": "Bienvenido a YourBanK",
+        "line2": "Impulsando tu {highlight}",
+        "highlight": "Viaje financiero"
+      },
+
+      "description": "En YourBanK, nuestra misión es ofrecer soluciones bancarias integrales que permitan a particulares y empresas alcanzar sus objetivos financieros. Nos comprometemos a prestar servicios personalizados e innovadores que den prioridad a las necesidades de nuestros clientes.",
+
+      "cta": {
+        "primary": "Abrir cuenta"
+      },
+
+      "banking_preview": {
+        "badge": {
+          "text": "Ingreso mensual"
+        },
+
+        "transactions": {
+          "title": "Tus transacciones",
+          "item_label": "Transacción"
+        },
+
+        "exchange": {
+          "title": "Cambio de divisas",
+          "mxn": "Peso Mexicano",
+          "usd": "Dólar Estadounidense",
+          "button_text": "Cambiar"
+        },
+
+        "supported_currency": "Monedas admitidas"
+      }
+    }
+  }
 }

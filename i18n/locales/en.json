@@ -9,5 +9,43 @@
     "security": "Security"
   },
   "sign_up": "Sign Up",
-  "login": "Login"
+  "login": "Login",
+
+  "home": {
+    "hero": {
+      "badge": "No LLC Required, No Credit Check.",
+      
+      "title": {
+        "line1": "Welcome to YourBank",
+        "line2": "Empowering Your {highlight}",
+        "highlight": "Financial Journey"
+      },
+
+      "description": "At YourBank, our mission is to provide comprehensive banking solutions that empower individuals and businesses to achieve their financial goals. We are committed to delivering personalized and innovative services that prioritize our customers’ needs.",
+
+      "cta": {
+        "primary": "Open account"
+      },
+
+      "banking_preview": {
+        "badge": {
+          "text": "Monthly income"
+        },
+
+        "transactions": {
+          "title": "Your transactions",
+          "item_label": "Transaction"
+        },
+
+        "exchange": {
+          "title": "Money exchange",
+          "mxn": "Mexican Peso",
+          "usd": "United States Dollar",
+          "button_text": "Exchange"
+        },
+
+        "supported_currency": "Supported currency"
+      }
+    }
+  }
 }
