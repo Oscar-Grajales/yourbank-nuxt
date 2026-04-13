@@ -78,6 +78,64 @@
       "businesses": {
 
       }
+    },
+
+    "use_cases": {
+      "header": {
+        "title": "Casos de Uso",
+        "description": "En YourBanK, atendemos las diversas necesidades tanto de particulares como de empresas, ofreciendo una amplia gama de soluciones financieras"
+      },
+      "cta_label": "Más información",
+
+      "individuals": {
+        "title": "Para particulares",
+        "description": "Para los particulares, nuestros servicios hipotecarios allanan el camino hacia la adquisición de una vivienda, y nuestros préstamos personales flexibles ofrecen un apoyo fundamental en los distintos momentos clave de la vida. También damos prioridad a la planificación de la jubilación, garantizando un futuro financieramente seguro para nuestros clientes.",
+        "stats": {
+          "retirement": {
+            "value": "78%",
+            "label": "Planificación segura de la jubilación"
+          },
+          "debt": {
+            "value": "63%",
+            "label": "Consolidación de deudas asequible"
+          },
+          "burden": {
+            "value": "91%",
+            "label": "Reducir las cargas económicas"
+          }
+        },
+        "cases": {
+          "managing_personal_finances": "Gestión de las finanzas personales",
+          "saving_for_future": "Ahorrar para el futuro",
+          "homeownership": "Adquisición de vivienda",
+          "education_funding": "Financiación de la educación"
+        }
+      },
+
+      "businesses": {
+        "title": "Para empresas",
+        "description": "Para las empresas, impulsamos el crecimiento con soluciones de capital circulante que optimizan el flujo de caja, y nuestras opciones de financiación a medida favorecen la expansión del negocio. Sean cuales sean sus objetivos financieros, YourBank se compromete a proporcionarle las herramientas y el apoyo adecuados para alcanzarlos.",
+        "stats": {
+          "cash_flow": {
+            "value": "65%",
+            "label": "Gestión del flujo de caja"
+          },
+          "expansion": {
+            "value": "70%",
+            "label": "Impulsar la expansión del negocio"
+          },
+          "payroll": {
+            "value": "45%",
+            "label": "Optimizar la gestión de nóminas"
+          }
+        },
+        "cases": {
+          "startups_entrepreneurs": "Startups y emprendedores",
+          "cash_flow": "Gestión del flujo de caja",
+          "expansion": "Expansión empresarial",
+          "payment_solutions": "Soluciones de pago"
+        }
+      }
     }
   }
 }

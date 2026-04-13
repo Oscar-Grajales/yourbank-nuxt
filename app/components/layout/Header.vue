@@ -24,7 +24,7 @@
                 </NuxtLinkLocale>
                 <NuxtLinkLocale
                     to="/sign-in"
-                    class="btn"
+                    class="btn btn-primary"
                 >
                     {{ $t('login') }}
                 </NuxtLinkLocale>

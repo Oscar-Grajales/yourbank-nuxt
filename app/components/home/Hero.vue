@@ -22,7 +22,7 @@
                     </i18n-t>
                 </h1>
                 <p class="mb-12 font-light">{{ $t('home.hero.description') }}</p>
-                <NuxtLink to="/sign-up" class="btn capitalize">{{ $t('home.hero.cta.primary') }}</NuxtLink>
+                <NuxtLink to="/sign-up" class="btn btn-primary capitalize">{{ $t('home.hero.cta.primary') }}</NuxtLink>
             </div>
             <BankingPreview />
         </div>

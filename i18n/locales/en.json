@@ -78,6 +78,64 @@
       "businesses": {
 
       }
+    },
+
+    "use_cases": {
+      "header": {
+        "title": "Use Cases",
+        "description": "At YourBanK, we cater to the diverse needs of individuals and businesses alike, offering a wide range of financial solutions"
+      },
+      "cta_label": "Learn more",
+
+      "individuals": {
+        "title": "For Individuals",
+        "description": "For individuals, our mortgage services pave the way to homeownership, and our flexible personal loans provide vital support during various life milestones. We also prioritize retirement planning, ensuring a financially secure future for our customers",
+        "stats": {
+          "retirement": {
+            "value": "78%",
+            "label": "Secure Retirement Planning"
+          },
+          "debt": {
+            "value": "63%",
+            "label": "Manageable Debt Consolidation"
+          },
+          "burden": {
+            "value": "91%",
+            "label": "Reducing financial burdens"
+          }
+        },
+        "cases": {
+          "managing_personal_finances": "Managing Personal Finances",
+          "saving_for_future": "Saving for the Future",
+          "homeownership": "Homeownership",
+          "education_funding": "Education Funding"
+        }
+      },
+
+      "businesses": {
+        "title": "For Business",
+        "description": "For businesses, we empower growth with working capital solutions that optimize cash flow, and our tailored financing options fuel business expansion. Whatever your financial aspirations, YourBank is committed to providing the right tools and support to achieve them",
+        "stats": {
+          "cash_flow": {
+            "value": "65%",
+            "label": "Cash Flow Management"
+          },
+          "expansion": {
+            "value": "70%",
+            "label": "Drive Business Expansion"
+          },
+          "payroll": {
+            "value": "45%",
+            "label": "Streamline payroll processing"
+          }
+        },
+        "cases": {
+          "startups_entrepreneurs": "Startups and Entrepreneurs",
+          "cash_flow": "Cash Flow Management",
+          "expansion": "Business Expansion",
+          "payment_solutions": "Payment Solutions"
+        }
+      }
     }
   }
 }

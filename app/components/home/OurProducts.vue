@@ -1,21 +1,23 @@
 <template>
   <Section>
     <div class="flex items-end justify-between gap-10">
-      <div class="max-w-228">
-        <h2 class="mb-3.5 text-5xl font-medium">
+      <SectionHeader
+        :description="$t('home.our_products.header.description')"
+        class="max-w-228"
+      >
+        <template #title>
           <i18n-t keypath="home.our_products.header.title" tag="span" scope="global">
             <template v-slot:highlight>
-            <span class="text-primary">{{ $t('home.our_products.header.highlight') }}</span>
+              <span class="text-primary">{{ $t('home.our_products.header.highlight') }}</span>
             </template>
           </i18n-t>
-        </h2>
-        <p class="font-light text-gray-70">{{ $t('home.our_products.header.description') }}</p>
-      </div>
+        </template>
+      </SectionHeader>
       <AudienceSwitcher v-model="audience" />
     </div>
     <div class="mt-25 grid grid-cols-3 divide-x divide-gray-15">
       <div
-        v-for="product in productsIndividuals"
+        v-for="product in individuals"
         :key="product.key"
         class="px-12.5 py-7 text-center"
       >
@@ -34,12 +36,13 @@ import BanknotesIcon from '../icons/filled/BanknotesIcon.vue';
 import BriefcaseIcon from '../icons/filled/BriefcaseIcon.vue';
 import DownloadBoxIcon from '../icons/filled/DownloadBoxIcon.vue';
 import Section from '../layout/Section.vue';
+import SectionHeader from '../layout/SectionHeader.vue';
 import AudienceSwitcher, { type Audience } from '../ui/AudienceSwitcher.vue';
 import GlowIconContainer from '../ui/GlowIconContainer.vue';
 
 const audience = ref<Audience>('individuals')
 
-const productsIndividuals = [
+const individuals = [
   {
     icon: BriefcaseIcon,
     key: 'checking_accounts',
@@ -54,7 +57,7 @@ const productsIndividuals = [
   },
 ]
 
-const productsBbusinesses = [
+const businesses = [
   {
     icon: '',
     key: 'checking_accounts',
