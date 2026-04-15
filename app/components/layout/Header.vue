@@ -1,18 +1,15 @@
 <template>
     <header class="fixed inset-0 z-50 h-fit mt-12 px-40">
         <div class="w-full max-w-400 mx-auto px-8.5 py-5 flex justify-between items-center gap-4 bg-gray-11 border border-gray-15 rounded-full">
-            <img
-                src="~/assets/img/logo.png"
-                :alt="$t('brand.logo_alt')"
-            >
+            <Logo />
             <nav class="flex items-center gap-6">
                 <NuxtLinkLocale
-                    v-for="item in navigationItems"
-                    :key="item.url"
-                    :to="item.url"
+                    v-for="item in navigation"
+                    :key="item.to"
+                    :to="item.to"
                     active-class="px-6 py-3 bg-gray-15 rounded-full"
                 >
-                    {{ $t(`navigation.${item.key}`) }}
+                    {{ $t(item.label) }}
                 </NuxtLinkLocale>
             </nav>
             <div>
@@ -36,28 +33,6 @@
 
 <script setup lang="ts">
 import LanguageSwitcher from '../ui/LanguageSwitcher.vue'
-
-type NavigationItem = {
-    key: string
-    url: string
-}
-
-const navigationItems: NavigationItem[] = [
-    {
-        key: "home",
-        url: "/",
-    },
-    {
-        key: "careers",
-        url: "/careers",
-    },
-    {
-        key: "about",
-        url: "/about",
-    },
-    {
-        key: "security",
-        url: "/security",
-    },
-]
+import Logo from '../ui/Logo.vue'
+import { navigation } from '~/constants/navigation'
 </script>
