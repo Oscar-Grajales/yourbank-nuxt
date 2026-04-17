@@ -136,6 +136,44 @@
           "payment_solutions": "Soluciones de pago"
         }
       }
+    },
+
+    "our_features": {
+      "header": {
+        "title": "Nuestras {highlight}",
+        "highlight": "Características",
+        "description": "Disfrute de una amplia gama de potentes funciones en YourBank, entre las que se incluyen una banca online fluida, transacciones seguras e información financiera personalizada, todo ello diseñado para mejorar su experiencia bancaria"
+      },
+
+      "groups": {
+        "online_banking": {
+          "label": "Banca Online",
+          "features": {
+            "account_access": {
+              "title": "Acceso a la cuenta 24/7",
+              "description": "Disfruta de la comodidad de acceder a tus cuentas en cualquier momento y desde cualquier lugar a través de nuestra plataforma segura de banca online. Consulta saldos, realiza transferencias y paga facturas con total facilidad."
+            },
+            "banking_app": {
+              "title": "Aplicación de banca móvil",
+              "description": "Mantente al día de tus finanzas estés donde estés con nuestra aplicación de banca móvil, muy fácil de usar. Gestiona fácilmente tus cuentas, ingresa cheques y realiza pagos desde tu smartphone o tableta."
+            },
+            "secure_transactions": {
+              "title": "Transacciones seguras",
+              "description": "Puedes estar tranquilo, ya que tus transacciones están protegidas por medidas de seguridad punteras en el sector. Utilizamos cifrado y autenticación multifactorial para proteger tu información financiera."
+            },
+            "transfers": {
+              "title": "Pago de facturas y transferencias",
+              "description": "Ahorra tiempo y evita recargos por demora con nuestro cómodo servicio de pago de facturas. Configura pagos periódicos o realiza transferencias puntuales entre tus cuentas con solo unos clics."
+            }
+          }
+        },
+        "financial_tools": {
+          "label": "Herramientas Financieras"
+        },
+        "customer_support": {
+          "label": "Atención al Cliente"
+        }
+      }
     }
   }
 }
