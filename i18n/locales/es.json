@@ -202,6 +202,60 @@
           "answer": "En YourBanK, damos prioridad a la seguridad de tus transacciones y de tus datos personales. Utilizamos sistemas de cifrado punteros en el sector y autenticación multifactorial para garantizar la protección de tus datos. Además, actualizamos periódicamente nuestras medidas de seguridad para adelantarnos a las amenazas emergentes. Puedes realizar tus operaciones bancarias con total confianza, sabiendo que contamos con sistemas de seguridad muy sólidos."
         }
       }
+    },
+
+    "testimonials": {
+      "header": {
+        "title": "Nuestros {highlight}",
+        "highlight": "Testimonios",
+        "description": "Descubre cómo YourBanK ha transformado vidas con soluciones digitales innovadoras y un servicio al cliente personalizado. Mira por qué nuestros clientes confían en nosotros para un camino financiero seguro y próspero."
+      },
+
+      "individuals": {
+        "testimonial_1": {
+          "name": "John D",
+          "text": "Recientemente inicié mi propio negocio, y YourBanK ha sido fundamental para ayudarme a abrir mis cuentas empresariales y obtener el financiamiento que necesitaba. Su asesoría experta y soluciones personalizadas han sido invaluables."
+        },
+        "testimonial_2": {
+          "name": "Emily G",
+          "text": "Me encanta la comodidad de la aplicación bancaria móvil de YourBanK. Me permite mantener el control de mis finanzas y realizar transacciones en cualquier lugar. La app es fácil de usar y segura, lo que me da tranquilidad."
+        },
+        "testimonial_3": {
+          "name": "Michael R",
+          "text": "Cambiarme a YourBanK fue una de las mejores decisiones financieras que he tomado. Su equipo de atención al cliente siempre responde rápido, y sus herramientas de ahorro me han ayudado a alcanzar mis metas más rápido de lo esperado."
+        },
+        "testimonial_4": {
+          "name": "Olivia K",
+          "text": "YourBanK hace que la banca sea simple y sin estrés. Desde transferencias rápidas hasta análisis detallados de gastos, todo está diseñado para ayudarme a mantener el control de mis finanzas cada día."
+        },
+        "testimonial_5": {
+          "name": "Sara T",
+          "text": "YourBanK ha sido mi socio financiero de confianza durante años. Su servicio personalizado y sus innovadoras soluciones de banca digital han hecho que administrar mis finanzas sea muy sencillo."
+        }
+      },
+
+      "businesses": {
+        "testimonial_1": {
+          "name": "BrightWave Studio",
+          "text": "YourBanK ha optimizado la forma en que administramos las finanzas de nuestra empresa. Desde la nómina hasta los pagos a proveedores, todo es más rápido, organizado y fácil de rastrear."
+        },
+        "testimonial_2": {
+          "name": "NorthPeak Logistics",
+          "text": "Como empresa en crecimiento, el acceso a financiamiento flexible era esencial. YourBanK nos proporcionó los fondos que necesitábamos junto con apoyo experto durante todo el proceso."
+        },
+        "testimonial_3": {
+          "name": "Luna Market Co.",
+          "text": "La plataforma bancaria empresarial de YourBanK le ha ahorrado incontables horas a nuestro equipo cada mes. Gestionar múltiples cuentas y monitorear el flujo de efectivo ahora es increíblemente sencillo."
+        },
+        "testimonial_4": {
+          "name": "Vertex Digital Agency",
+          "text": "Necesitábamos un socio bancario confiable que pudiera crecer junto con nuestras operaciones. YourBanK nos ofreció pagos internacionales seguros, atención ágil y herramientas diseñadas para negocios modernos."
+        },
+        "testimonial_5": {
+          "name": "GreenField Construction",
+          "text": "YourBanK entiende las necesidades de los dueños de negocios. Sus soluciones personalizadas y el soporte dedicado de cuenta nos han ayudado a operar con mayor eficiencia y planear el crecimiento futuro."
+        }
+      }
     }
   }
 }

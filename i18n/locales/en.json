@@ -114,7 +114,7 @@
 
       "businesses": {
         "title": "For Business",
-        "description": "For businesses, we empower growth with working capital solutions that optimize cash flow, and our tailored financing options fuel business expansion. Whatever your financial aspirations, YourBank is committed to providing the right tools and support to achieve them",
+        "description": "For businesses, we empower growth with working capital solutions that optimize cash flow, and our tailored financing options fuel business expansion. Whatever your financial aspirations, YourBanK is committed to providing the right tools and support to achieve them",
         "stats": {
           "cash_flow": {
             "value": "65%",
@@ -142,7 +142,7 @@
       "header": {
         "title": "Our {highlight}",
         "highlight": "Features",
-        "description": "Experience a host of powerful features at YourBank, including seamless online banking, secure transactions, and personalized financial insights, all designed to enhance your banking experience"
+        "description": "Experience a host of powerful features at YourBanK, including seamless online banking, secure transactions, and personalized financial insights, all designed to enhance your banking experience"
       },
 
       "groups": {
@@ -186,8 +186,8 @@
 
       "items": {
         "open_account": {
-          "question": "How do I open an account with YourBank?",
-          "answer": "Opening an account with YourBank is easy. Simply visit our website and click on the \"Open an Account\" button. Follow the prompts, provide the required information, and complete the application process. If you have any questions or need assistance, our customer support team is available to help."
+          "question": "How do I open an account with YourBanK?",
+          "answer": "Opening an account with YourBanK is easy. Simply visit our website and click on the \"Open an Account\" button. Follow the prompts, provide the required information, and complete the application process. If you have any questions or need assistance, our customer support team is available to help."
         },
         "documents_for_loan": {
           "question": "What documents do I need to provide to apply for a loan?",
@@ -199,7 +199,61 @@
         },
         "security": {
           "question": "Are my transactions and personal information secure?",
-          "answer": "At YourBank, we prioritize the security of your transactions and personal information. We employ industry-leading encryption and multi-factor authentication to ensure that your data is protected. Additionally, we regularly update our security measures to stay ahead of emerging threats. You can bank with confidence knowing that we have robust security systems in place."
+          "answer": "At YourBanK, we prioritize the security of your transactions and personal information. We employ industry-leading encryption and multi-factor authentication to ensure that your data is protected. Additionally, we regularly update our security measures to stay ahead of emerging threats. You can bank with confidence knowing that we have robust security systems in place."
+        }
+      }
+    },
+
+    "testimonials": {
+      "header": {
+        "title": "Our {highlight}",
+        "highlight": "Testimonials",
+        "description": "Discover how YourBanK has transformed lives with innovative digital solutions and personalized customer service. See why our clients trust us for a secure and prosperous financial journey"
+      },
+
+      "individuals": {
+        "testimonial_1": {
+          "name": "John D",
+          "text": "I recently started my own business, and YourBanK has been instrumental in helping me set up my business accounts and secure the financing I needed. Their expert guidance and tailored solutions have been invaluable."
+        },
+        "testimonial_2": {
+          "name": "Emily G",
+          "text": "I love the convenience of YourBanK's mobile banking app. It allows me to stay on top of my finances and make transactions on the go. The app is user-friendly and secure, giving me peace of mind."
+        },
+        "testimonial_3": {
+          "name": "Michael R",
+          "text": "Switching to YourBanK was one of the best financial decisions I've made. Their customer support team is always responsive, and their savings tools have helped me reach my goals faster than expected."
+        },
+        "testimonial_4": {
+          "name": "Olivia K",
+          "text": "YourBanK makes banking simple and stress-free. From quick transfers to detailed spending insights, everything is designed to help me stay in control of my finances every day."
+        },
+        "testimonial_5": {
+          "name": "Sara T",
+          "text": "YourBanK has been my trusted financial partner for years. Their personalized service and innovative digital banking solutions have made managing my finances a breeze."
+        }
+      },
+
+      "businesses": {
+        "testimonial_1": {
+          "name": "BrightWave Studio",
+          "text": "YourBanK has streamlined the way we manage our company finances. From payroll to vendor payments, everything is faster, more organized, and easier to track."
+        },
+        "testimonial_2": {
+          "name": "NorthPeak Logistics",
+          "text": "As a growing business, access to flexible financing was essential. YourBanK provided the funding we needed along with expert support throughout the entire process."
+        },
+        "testimonial_3": {
+          "name": "Luna Market Co.",
+          "text": "YourBanK's business banking platform has saved our team countless hours each month. Managing multiple accounts and monitoring cash flow is now incredibly simple."
+        },
+        "testimonial_4": {
+          "name": "Vertex Digital Agency",
+          "text": "We needed a reliable banking partner that could scale with our operations. YourBanK delivered secure international payments, responsive service, and tools built for modern businesses."
+        },
+        "testimonial_5": {
+          "name": "GreenField Construction",
+          "text": "YourBanK understands the needs of business owners. Their tailored solutions and dedicated account support have helped us operate more efficiently and plan for future growth."
         }
       }
     }

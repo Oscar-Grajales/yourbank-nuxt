@@ -11,7 +11,7 @@ export default defineNuxtConfig({
     ]
   },
 
-  modules: ['@nuxtjs/i18n', '@vueuse/nuxt'],
+  modules: ['@nuxtjs/i18n', '@vueuse/nuxt', 'nuxt-swiper'],
 
   i18n: {
     locales: [

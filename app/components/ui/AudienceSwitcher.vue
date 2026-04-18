@@ -3,8 +3,8 @@
     <button
       v-for="option in options"
       :key="option.key"
-      class="px-6 py-3.5 capitalize cursor-pointer"
-      :class="{ 'btn': modelValue === option.value }"
+      class="btn px-6 py-3.5 capitalize cursor-pointer"
+      :class="{ 'btn-primary': modelValue === option.value }"
       @click="select(option.value)"
     >
       {{ $t(option.key) }}
