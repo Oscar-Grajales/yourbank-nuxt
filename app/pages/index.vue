@@ -6,6 +6,7 @@
         <OurFeatures />
         <Faq />
         <OurTestimonials />
+        <CTA />
     </main>
 </template>
 
@@ -16,4 +17,5 @@ import OurFeatures from '~/components/home/OurFeatures.vue';
 import OurProducts from '~/components/home/OurProducts.vue';
 import OurTestimonials from '~/components/home/OurTestimonials.vue';
 import UseCases from '~/components/home/UseCases.vue';
+import CTA from '~/components/ui/CTA.vue';
 </script>

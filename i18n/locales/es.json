@@ -256,6 +256,13 @@
           "text": "YourBanK entiende las necesidades de los dueños de negocios. Sus soluciones personalizadas y el soporte dedicado de cuenta nos han ayudado a operar con mayor eficiencia y planear el crecimiento futuro."
         }
       }
+    },
+
+    "cta": {
+      "title": "Comienza tu camino financiero con {highlight}",
+      "highlight": "YourBanK hoy mismo!",
+      "description": "¿Listo para tomar el control de tus finanzas? Únete a YourBanK ahora y permítenos ayudarte a alcanzar tus metas financieras con nuestras soluciones personalizadas y un servicio al cliente excepcional.",
+      "label": "Abrir Cuenta"
     }
   }
 }

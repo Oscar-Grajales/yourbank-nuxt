@@ -256,6 +256,13 @@
           "text": "YourBanK understands the needs of business owners. Their tailored solutions and dedicated account support have helped us operate more efficiently and plan for future growth."
         }
       }
+    },
+
+    "cta": {
+      "title": "Start your financial journey with {highlight}",
+      "highlight": "YourBanK today!",
+      "description": "Ready to take control of your finances? Join YourBanK now, and let us help you achieve your financial goals with our tailored solutions and exceptional customer service",
+      "label": "Open Account"
     }
   }
 }
