@@ -272,6 +272,33 @@
       "highlight": "YourBanK",
       "description": "Únete a nuestro equipo y emprende un camino gratificante en la industria bancaria. En YourBanK, estamos comprometidos con fomentar una cultura de excelencia y brindar oportunidades de crecimiento profesional. Con un enfoque en la innovación, el servicio al cliente y la integridad, buscamos generar un impacto positivo en la vida de nuestros clientes y comunidades. Únete hoy y sé parte de nuestra misión de dar forma al futuro de la banca.",
       "image_alt": "Carreras"
+    },
+
+    "our_values": {
+      "header": {
+        "title": "Nuestros {highlight}",
+        "highlight": "Valores",
+        "description": "En YourBanK, nuestros valores forman la base de nuestra organización y guían nuestras acciones. Creemos en mantener los más altos estándares de integridad, brindar un servicio excepcional y adoptar la innovación. Estos valores definen nuestra cultura y moldean la manera en que trabajamos juntos para alcanzar nuestros objetivos."
+      },
+
+      "values": {
+        "integrity": {
+          "title": "Integridad",
+          "description": "Nos conducimos con la máxima honestidad, transparencia y comportamiento ético. Creemos en hacer lo correcto para nuestros clientes, colegas y partes interesadas, incluso cuando enfrentamos decisiones difíciles."
+        },
+        "customer": {
+          "title": "Enfoque en el Cliente",
+          "description": "Nuestros clientes están en el centro de todo lo que hacemos. Nos dedicamos a comprender sus necesidades, ofrecer soluciones personalizadas y brindar un servicio excepcional que supere las expectativas."
+        },
+        "collaboration": {
+          "title": "Colaboración",
+          "description": "Fomentamos un entorno laboral colaborativo e inclusivo, donde el trabajo en equipo y la diversidad son valorados. Al aprovechar las fortalezas y perspectivas únicas de nuestros empleados, impulsamos la innovación y alcanzamos un mayor éxito juntos."
+        },
+        "innovation": {
+          "title": "Innovación",
+          "description": "Adoptamos el cambio y buscamos constantemente soluciones innovadoras para satisfacer las necesidades cambiantes de nuestros clientes. Animamos a nuestros empleados a pensar creativamente, desafiar lo convencional y explorar nuevas ideas para impulsar el futuro de la banca."
+        }
+      }
     }
   }
 }
