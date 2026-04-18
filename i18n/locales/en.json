@@ -299,6 +299,33 @@
           "description": "We embrace change and constantly seek innovative solutions to meet the evolving needs of our customers. We encourage our employees to think creatively, challenge conventions, and explore new ideas to drive the future of banking."
         }
       }
+    },
+
+    "our_benefits": {
+      "header": {
+        "title": "Our {highlight}",
+        "highlight": "Benefits",
+        "description": "At YourBank, we value our employees and are dedicated to their well-being and success. We offer a comprehensive range of benefits designed to support their personal and professional growth."
+      },
+
+      "benefits": {
+        "competitive_compensation": {
+          "title": "Competitive Compensation",
+          "description": "We provide a competitive salary package that recognizes the skills and expertise of our employees. YourBank believes in rewarding exceptional performance and offering opportunities for financial growth."
+        },
+        "health_wellness": {
+          "title": "Health and Wellness",
+          "description": "We prioritize the health and well-being of our employees by providing comprehensive medical, dental, and vision insurance plans. We also offer wellness programs, gym memberships, and resources to support a healthy lifestyle."
+        },
+        "retirement_planning": {
+          "title": "Retirement Planning",
+          "description": "YourBank is committed to helping employees plan for their future. We offer a retirement savings plan with a generous employer match to help them build a secure financial foundation for the long term."
+        },
+        "worklife_balance": {
+          "title": "Work-Life Balance",
+          "description": "We understand the importance of maintaining a healthy work-life balance. YourBank offers flexible work arrangements, paid time off, parental leave, and other programs that support employees in managing their personal and professional commitments."
+        }
+      }
     }
   }
 }

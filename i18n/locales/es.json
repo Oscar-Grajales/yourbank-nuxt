@@ -299,6 +299,33 @@
           "description": "Adoptamos el cambio y buscamos constantemente soluciones innovadoras para satisfacer las necesidades cambiantes de nuestros clientes. Animamos a nuestros empleados a pensar creativamente, desafiar lo convencional y explorar nuevas ideas para impulsar el futuro de la banca."
         }
       }
+    },
+
+    "our_benefits": {
+      "header": {
+        "title": "Nuestros {highlight}",
+        "highlight": "Beneficios",
+        "description": "En YourBanK, valoramos a nuestros empleados y estamos comprometidos con su bienestar y éxito. Ofrecemos una amplia gama de beneficios diseñados para apoyar su crecimiento personal y profesional."
+      },
+
+      "benefits": {
+        "competitive_compensation": {
+          "title": "Compensación Competitiva",
+          "description": "Ofrecemos un paquete salarial competitivo que reconoce las habilidades y experiencia de nuestros empleados. YourBanK cree en recompensar el desempeño excepcional y brindar oportunidades de crecimiento financiero."
+        },
+        "health_wellness": {
+          "title": "Salud y Bienestar",
+          "description": "Priorizamos la salud y el bienestar de nuestros empleados ofreciendo planes integrales de seguro médico, dental y de visión. También brindamos programas de bienestar, membresías de gimnasio y recursos para apoyar un estilo de vida saludable."
+        },
+        "retirement_planning": {
+          "title": "Planificación para el Retiro",
+          "description": "YourBanK está comprometido con ayudar a los empleados a planificar su futuro. Ofrecemos un plan de ahorro para el retiro con una generosa contribución de la empresa para ayudarles a construir una base financiera sólida a largo plazo."
+        },
+        "worklife_balance": {
+          "title": "Equilibrio entre Trabajo y Vida Personal",
+          "description": "Entendemos la importancia de mantener un equilibrio saludable entre el trabajo y la vida personal. YourBanK ofrece modalidades de trabajo flexibles, tiempo libre remunerado, licencia parental y otros programas que apoyan a los empleados en la gestión de sus compromisos personales y profesionales."
+        }
+      }
     }
   }
 }

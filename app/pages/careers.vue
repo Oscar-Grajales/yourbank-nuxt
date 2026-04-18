@@ -8,6 +8,7 @@
       image-alt="careers.hero.image_alt"
     />
     <OurValues />
+    <OurBenefits />
   </main>
 </template>
 
@@ -15,4 +16,5 @@
 import Hero from '~/components/shared/Hero.vue';
 import CareersHeroImg from '~/assets/img/hero/careers.webp'
 import OurValues from '~/components/careers/OurValues.vue';
+import OurBenefits from '~/components/careers/OurBenefits.vue';
 </script>
