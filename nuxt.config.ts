@@ -14,10 +14,11 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/i18n', '@vueuse/nuxt'],
 
   i18n: {
-    defaultLocale: 'en',
     locales: [
-      { code: 'en', name: 'English', file: 'en.json' },
-      { code: 'es', name: 'Español', file: 'es.json' }
-    ]
+      { code: 'en', language: 'en-US', name: 'English', file: 'en.json' },
+      { code: 'es', language: 'es-MX', name: 'Español', file: 'es.json' }
+    ],
+    defaultLocale: 'en',
+    strategy: 'prefix_except_default',
   }
 })

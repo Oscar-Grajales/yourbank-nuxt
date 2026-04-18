@@ -114,7 +114,7 @@
 
       "businesses": {
         "title": "Para empresas",
-        "description": "Para las empresas, impulsamos el crecimiento con soluciones de capital circulante que optimizan el flujo de caja, y nuestras opciones de financiación a medida favorecen la expansión del negocio. Sean cuales sean sus objetivos financieros, YourBank se compromete a proporcionarle las herramientas y el apoyo adecuados para alcanzarlos.",
+        "description": "Para las empresas, impulsamos el crecimiento con soluciones de capital circulante que optimizan el flujo de caja, y nuestras opciones de financiación a medida favorecen la expansión del negocio. Sean cuales sean sus objetivos financieros, YourBanK se compromete a proporcionarle las herramientas y el apoyo adecuados para alcanzarlos.",
         "stats": {
           "cash_flow": {
             "value": "65%",
@@ -142,7 +142,7 @@
       "header": {
         "title": "Nuestras {highlight}",
         "highlight": "Características",
-        "description": "Disfrute de una amplia gama de potentes funciones en YourBank, entre las que se incluyen una banca online fluida, transacciones seguras e información financiera personalizada, todo ello diseñado para mejorar su experiencia bancaria"
+        "description": "Disfrute de una amplia gama de potentes funciones en YourBanK, entre las que se incluyen una banca online fluida, transacciones seguras e información financiera personalizada, todo ello diseñado para mejorar su experiencia bancaria"
       },
 
       "groups": {
@@ -172,6 +172,34 @@
         },
         "customer_support": {
           "label": "Atención al Cliente"
+        }
+      }
+    },
+
+    "faq": {
+      "header": {
+        "title": "{highlight} Frecuentes",
+        "highlight": "Preguntas",
+        "description": "¿Todavía tienes alguna pregunta? Ponte en contacto con nuestro equipo a través de support{'@'}yourbank.com"
+      },
+      "load_all": "Ver más",
+
+      "items": {
+        "open_account": {
+          "question": "¿Cómo puedo abrir una cuenta en YourBanK?",
+          "answer": "Abrir una cuenta en YourBanK es muy fácil. Solo tienes que visitar nuestra página web y hacer clic en el botón \"Abrir una cuenta\". Sigue las instrucciones, introduce la información necesaria y completa el proceso de solicitud. Si tienes alguna duda o necesitas ayuda, nuestro equipo de atención al cliente está a tu disposición para ayudarte."
+        },
+        "documents_for_loan": {
+          "question": "¿Qué documentos tengo que presentar para solicitar un préstamo?",
+          "answer": "Los documentos necesarios para solicitar un préstamo pueden variar en función del tipo de préstamo que solicite. Por lo general, deberá presentar documentos de identidad (como el pasaporte o el permiso de conducir), justificantes de ingresos (como nóminas o declaraciones de la renta) e información sobre la garantía (si procede). Nuestros agentes de préstamos le orientarán sobre los requisitos específicos durante el proceso de solicitud."
+        },
+        "online_access": {
+          "question": "¿Cómo puedo acceder a mis cuentas por Internet?",
+          "answer": "Acceder a sus cuentas por Internet es sencillo y seguro. Visite nuestro sitio web y haga clic en el botón \"Iniciar sesión\". Introduzca su nombre de usuario y contraseña para acceder a sus cuentas. Si aún no se ha registrado en la banca online, haga clic en el botón \"Registrarse ahora\" y siga el proceso de registro. Si necesita ayuda, nuestro equipo de atención al cliente está a su disposición para guiarle."
+        },
+        "security": {
+          "question": "¿Están seguras mis transacciones y mis datos personales?",
+          "answer": "En YourBanK, damos prioridad a la seguridad de tus transacciones y de tus datos personales. Utilizamos sistemas de cifrado punteros en el sector y autenticación multifactorial para garantizar la protección de tus datos. Además, actualizamos periódicamente nuestras medidas de seguridad para adelantarnos a las amenazas emergentes. Puedes realizar tus operaciones bancarias con total confianza, sabiendo que contamos con sistemas de seguridad muy sólidos."
         }
       }
     }
