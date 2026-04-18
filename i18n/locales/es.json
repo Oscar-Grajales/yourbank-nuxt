@@ -264,5 +264,14 @@
       "description": "¿Listo para tomar el control de tus finanzas? Únete a YourBanK ahora y permítenos ayudarte a alcanzar tus metas financieras con nuestras soluciones personalizadas y un servicio al cliente excepcional.",
       "label": "Abrir Cuenta"
     }
+  },
+
+  "careers": {
+    "hero": {
+      "title": "¡Bienvenido a las carreras de {highlight}!",
+      "highlight": "YourBanK",
+      "description": "Únete a nuestro equipo y emprende un camino gratificante en la industria bancaria. En YourBanK, estamos comprometidos con fomentar una cultura de excelencia y brindar oportunidades de crecimiento profesional. Con un enfoque en la innovación, el servicio al cliente y la integridad, buscamos generar un impacto positivo en la vida de nuestros clientes y comunidades. Únete hoy y sé parte de nuestra misión de dar forma al futuro de la banca.",
+      "image_alt": "Carreras"
+    }
   }
 }
