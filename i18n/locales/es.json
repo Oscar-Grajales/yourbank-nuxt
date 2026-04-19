@@ -326,6 +326,66 @@
           "description": "Entendemos la importancia de mantener un equilibrio saludable entre el trabajo y la vida personal. YourBanK ofrece modalidades de trabajo flexibles, tiempo libre remunerado, licencia parental y otros programas que apoyan a los empleados en la gestión de sus compromisos personales y profesionales."
         }
       }
+    },
+
+    "jobs": {
+      "header": {
+        "title": "{highlight}",
+        "highlight": "Vacantes Laborales",
+        "description": "Explora emocionantes oportunidades laborales en YourBanK, donde valoramos el talento, la innovación y la pasión por el servicio al cliente. Únete a nuestro equipo y sé parte de la construcción de un futuro más brillante en la industria bancaria."
+      },
+
+      "job": {
+        "about": "Acerca de este Trabajo",
+        "requirements": "Requisitos y Cualificaciones",
+        "location": "Lugar",
+        "department": "Departamento",
+        "cta": {
+          "label": "Aplicar Ahora"
+        }
+      },
+
+      "items": [
+        {
+          "title": "Gerente de Relaciones",
+          "location": "México",
+          "department": "Banca Minorista",
+          "description": "Como Gerente de Relaciones en YourBanK, serás responsable de desarrollar y mantener relaciones con nuestros valiosos clientes. Identificarás de manera proactiva sus necesidades financieras y ofrecerás soluciones personalizadas para ayudarles a alcanzar sus objetivos. Buscamos personas con excelentes habilidades de comunicación, una sólida capacidad comercial y pasión por brindar un servicio al cliente excepcional.",
+          "requirements": [
+            "Licenciatura en Negocios, Finanzas o un campo relacionado",
+            "Mínimo de 3 años de experiencia en ventas o gestión de relaciones en la industria bancaria",
+            "Historial comprobado de cumplimiento y superación de metas de ventas",
+            "Excelentes habilidades interpersonales y de negociación",
+            "Sólido conocimiento de productos y servicios bancarios"
+          ]
+        },
+        {
+          "title": "Analista de Riesgos",
+          "location": "San Francisco",
+          "department": "Gestión de Riesgos",
+          "description": "Como Analista de Riesgos en YourBanK, desempeñarás un papel vital en la identificación y evaluación de riesgos potenciales para nuestra organización. Analizarás datos, realizarás evaluaciones de riesgo y desarrollarás estrategias para mitigarlos. Buscamos personas orientadas al detalle, con sólidas habilidades analíticas y un buen entendimiento de los principios de gestión de riesgos.",
+          "requirements": [
+            "Licenciatura en Finanzas, Economía o un campo relacionado",
+            "Mínimo de 2 años de experiencia en gestión de riesgos o un puesto similar",
+            "Dominio de herramientas y técnicas de análisis de riesgos",
+            "Fuertes habilidades analíticas y de resolución de problemas",
+            "Conocimiento de requisitos regulatorios y mejores prácticas de la industria"
+          ]
+        },
+        {
+          "title": "Especialista en Seguridad Informática",
+          "location": "San Francisco",
+          "department": "Tecnología de la Información",
+          "description": "Como Especialista en Seguridad Informática en YourBanK, serás responsable de garantizar la seguridad e integridad de nuestros sistemas de información. Desarrollarás e implementarás protocolos de seguridad, realizarás evaluaciones de vulnerabilidades y responderás a incidentes de seguridad. Buscamos personas con una sólida base técnica, conocimiento de mejores prácticas en ciberseguridad y compromiso con la confidencialidad de los datos de los clientes.",
+          "requirements": [
+            "Licenciatura en Ciencias de la Computación, Seguridad Informática o un campo relacionado",
+            "Mínimo de 5 años de experiencia en seguridad informática o un puesto similar",
+            "Conocimiento profundo de protocolos y tecnologías de seguridad de redes",
+            "Familiaridad con marcos regulatorios como PCI DSS y GDPR",
+            "Se valoran certificaciones profesionales como CISSP o CISM"
+          ]
+        }
+      ]
     }
   }
 }
