@@ -9,6 +9,7 @@
       image-alt="about.hero.image_alt"
     />
     <MissionVision />
+    <PressRelease />
   </main>
 </template>
 
@@ -16,4 +17,5 @@
 import Hero from '~/components/shared/Hero.vue';
 import AboutHeroImg from '~/assets/img/hero/about.webp'
 import MissionVision from '~/components/about/MissionVision.vue';
+import PressRelease from '~/components/about/PressRelease.vue';
 </script>

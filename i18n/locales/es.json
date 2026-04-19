@@ -423,6 +423,46 @@
         "description": "Nuestra visión en YourBanK es redefinir la banca creando una experiencia fluida y personalizada para nuestros clientes. Imaginamos un futuro donde la banca sea accesible, transparente y adaptada a las preferencias individuales. A través de la innovación continua y la colaboración, buscamos estar a la vanguardia de la industria, estableciendo nuevos estándares de banca centrada en el cliente. Nuestra visión es ser la institución financiera preferida, reconocida por nuestro compromiso inquebrantable con la excelencia, la confianza y la satisfacción del cliente.",
         "image_alt": "Visión"
       }
+    },
+
+    "press_release": {
+      "header": {
+        "title": "{highlight}",
+        "highlight": "Comunicados de Prensa",
+        "description": "Mantente al día con los últimos acontecimientos y emocionantes novedades de YourBanK a través de nuestros comunicados de prensa."
+      },
+
+      "release": {
+        "location": "Lugar",
+        "date": "Fecha"
+      },
+
+      "items": [
+        {
+          "title": "YourBanK lanza un nuevo programa de recompensas para fortalecer la lealtad y satisfacción de los clientes",
+          "location": "México",
+          "date": "2026-01-27",
+          "description": "YourBanK se complace en anunciar el lanzamiento de nuestro nuevo Programa de Recompensas, diseñado para premiar a nuestros clientes leales y mejorar su experiencia bancaria. El programa ofrece beneficios exclusivos, descuentos y ofertas personalizadas adaptadas a las preferencias individuales de cada cliente. Con esta iniciativa, YourBanK reafirma su compromiso de brindar un valor excepcional y construir relaciones duraderas con nuestros valiosos clientes."
+        },
+        {
+          "title": "YourBanK expande su red de sucursales con la apertura de una nueva ubicación en San Francisco",
+          "location": "Estados Unidos",
+          "date": "2026-01-05",
+          "description": "YourBanK se complace en anunciar la gran apertura de nuestra sucursal más reciente en San Francisco. Esta expansión es una muestra de nuestro compromiso continuo de servir a nuestros clientes y brindarles acceso conveniente a nuestra amplia gama de servicios bancarios. La nueva sucursal contará con instalaciones de última generación, un equipo de profesionales dedicados y un enfoque personalizado en la banca, fortaleciendo aún más nuestra presencia en la comunidad local."
+        },
+        {
+          "title": "YourBanK se asocia con una organización local sin fines de lucro para apoyar iniciativas de educación financiera",
+          "location": "México",
+          "date": "2025-12-12",
+          "description": "YourBanK se enorgullece de asociarse con una organización local sin fines de lucro para impulsar programas de educación financiera en la comunidad. A través de talleres, recursos digitales y eventos comunitarios, esta colaboración busca empoderar a las personas con el conocimiento necesario para tomar decisiones financieras informadas y construir un futuro más sólido."
+        },
+        {
+          "title": "YourBanK lanza una iniciativa de banca sostenible para promover la responsabilidad ambiental",
+          "location": "México",
+          "date": "2025-12-07",
+          "description": "YourBanK se complace en presentar nuestra nueva Iniciativa de Banca Sostenible, demostrando nuestro compromiso con la responsabilidad ambiental. Esta iniciativa incluye una variedad de productos y servicios bancarios sostenibles, como préstamos verdes, opciones de inversión ecológicas y soluciones bancarias sin papel. Al incorporar prácticas sostenibles en nuestras operaciones, buscamos contribuir a un futuro más verde mientras ofrecemos soluciones bancarias innovadoras a nuestros clientes."
+        }
+      ]
     }
   }
 }
