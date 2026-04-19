@@ -6,7 +6,13 @@
         <OurFeatures />
         <Faq />
         <OurTestimonials />
-        <CTA />
+        <CTA
+          title="home.cta.title"
+          highlight="home.cta.highlight"
+          description="home.cta.description"
+          ctaLabel="home.cta.label"
+          ctaLink="/sign-up"
+        />
     </main>
 </template>
 
@@ -17,5 +23,5 @@ import OurFeatures from '~/components/home/OurFeatures.vue';
 import OurProducts from '~/components/home/OurProducts.vue';
 import OurTestimonials from '~/components/home/OurTestimonials.vue';
 import UseCases from '~/components/home/UseCases.vue';
-import CTA from '~/components/ui/CTA.vue';
+import CTA from '~/components/shared/CTA.vue';
 </script>

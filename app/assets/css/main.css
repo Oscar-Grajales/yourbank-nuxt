@@ -11,6 +11,10 @@
 }
 
 @layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+
     body {
         font-family: 'Lexend', sans-serif;
         background-color: var(--color-gray-10);

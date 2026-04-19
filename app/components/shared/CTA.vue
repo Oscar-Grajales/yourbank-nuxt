@@ -9,19 +9,19 @@
       >
       <div class="z-1">
         <h2 class="text-[40px] leading-14">
-          <i18n-t keypath="home.cta.title" tag="span" scope="global">
+          <i18n-t :keypath="title" tag="span" scope="global">
             <template v-slot:highlight>
-              <span class="text-primary">{{ $t('home.cta.highlight') }}</span>
+              <span class="text-primary">{{ $t(highlight) }}</span>
             </template>
           </i18n-t>
         </h2>
-        <p class="mt-3 text-gray-70 font-light">{{ $t('home.cta.description') }}</p>
+        <p class="mt-3 text-gray-70 font-light">{{ $t(description) }}</p>
       </div>
       <NuxtLinkLocale
-        to="/sign-up"
+        :to="ctaLink"
         class="btn btn-primary shrink-0 capitalize"
       >
-        {{ $t('home.cta.label') }}
+        {{ $t(ctaLabel) }}
       </NuxtLinkLocale>
     </div>
   </Section>
@@ -29,6 +29,16 @@
 
 <script setup lang="ts">
 import Section from '../layout/Section.vue';
+
+interface Props {
+  title: string;
+  highlight: string;
+  description: string;
+  ctaLabel: string;
+  ctaLink: string;
+}
+
+const props = defineProps<Props>()
 </script>
 
 <style scoped>

@@ -386,6 +386,13 @@
           ]
         }
       ]
+    },
+
+    "cta": {
+      "title": "Start your Career with {highlight}",
+      "highlight": "YourBanK today!",
+      "description": "Ready to grow professionally in a dynamic and innovative environment? Join YourBanK and build a rewarding career where your talent, ideas, and ambition can make a real impact.",
+      "label": "Apply Now"
     }
   }
 }

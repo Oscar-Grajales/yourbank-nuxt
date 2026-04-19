@@ -1,5 +1,5 @@
 <template>
-  <Section>
+  <Section id="jobs">
     <SectionHeader
       :description="$t('careers.jobs.header.description')"
       class="max-w-7xl"

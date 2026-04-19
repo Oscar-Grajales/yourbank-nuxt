@@ -386,6 +386,13 @@
           ]
         }
       ]
+    },
+
+    "cta": {
+      "title": "Comienza tu carrera con {highlight}",
+      "highlight": "YourBanK hoy mismo!",
+      "description": "¿Listo para crecer profesionalmente en un entorno dinámico e innovador? Únete a YourBanK y construye una carrera gratificante donde tu talento, ideas y ambición puedan generar un impacto real.",
+      "label": "Aplicar Ahora"
     }
   }
 }
