@@ -55,5 +55,15 @@ import Chip from '../ui/Chip.vue';
 
 const { tm, rt } = useI18n()
 
-const jobs = computed(() => tm('careers.jobs.items'))
+interface Job {
+  title: string;
+  location: string;
+  department: string;
+  description: string;
+  requirements: string[];
+}
+
+const jobs = computed<Job[]>(() =>
+  tm('careers.jobs.items') as Job[]
+)
 </script>
