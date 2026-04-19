@@ -403,6 +403,26 @@
       "highlight": "Excelencia!",
       "description": "En YourBanK, creemos que la banca debe ser más que solo transacciones. Debe ser una experiencia que impulse a individuos y empresas a prosperar y alcanzar sus metas financieras. Como una institución financiera de confianza, estamos comprometidos con ofrecer servicios bancarios excepcionales que superen las expectativas. Con un enfoque en la innovación, soluciones personalizadas e integridad inquebrantable, nos esforzamos por brindar la mejor experiencia bancaria a nuestros valiosos clientes. Únete a nosotros en este emocionante camino y descubre un nuevo nivel de excelencia bancaria.",
       "image_alt": "Acerca de"
+    },
+
+    "mission_vision": {
+      "header": {
+        "title": "{highlight}",
+        "highlight": "Misión y Visión",
+        "description": "Visualizamos ser una fuerza líder en la industria, impulsada por la innovación, la integridad y la inclusión, creando un futuro financiero más brillante para individuos y empresas mientras mantenemos un firme compromiso con la satisfacción del cliente y el desarrollo comunitario."
+      },
+
+      "mission": {
+        "title": "Misión",
+        "description": "En YourBanK, nuestra misión es empoderar a nuestros clientes para alcanzar el éxito financiero. Estamos comprometidos con ofrecer soluciones bancarias innovadoras que se adapten a sus necesidades únicas. A través de servicios personalizados, asesoría experta y tecnología de vanguardia, buscamos construir relaciones sólidas y duraderas con nuestros clientes. Nuestra misión es ser su socio de confianza, ayudándolos a recorrer su camino financiero y hacer realidad sus sueños.",
+        "image_alt": "Misión"
+      },
+
+      "vision": {
+        "title": "Visión",
+        "description": "Nuestra visión en YourBanK es redefinir la banca creando una experiencia fluida y personalizada para nuestros clientes. Imaginamos un futuro donde la banca sea accesible, transparente y adaptada a las preferencias individuales. A través de la innovación continua y la colaboración, buscamos estar a la vanguardia de la industria, estableciendo nuevos estándares de banca centrada en el cliente. Nuestra visión es ser la institución financiera preferida, reconocida por nuestro compromiso inquebrantable con la excelencia, la confianza y la satisfacción del cliente.",
+        "image_alt": "Visión"
+      }
     }
   }
 }
