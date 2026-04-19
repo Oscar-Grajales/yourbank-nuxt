@@ -464,5 +464,14 @@
         }
       ]
     }
+  },
+
+  "security": {
+    "hero": {
+      "title": "Tu Seguridad es Nuestra {highlight}",
+      "highlight": "Máxima Prioridad",
+      "description": "En YourBank, entendemos la importancia de mantener segura tu información financiera. Implementamos sólidas medidas de seguridad y tecnologías avanzadas para proteger tus datos personales y financieros. Ten la tranquilidad de que cuando operas con nosotros, tu seguridad es nuestra máxima prioridad.",
+      "image_alt": "Seguridad"
+    }
   }
 }
