@@ -11,7 +11,13 @@
     >
     <div class="relative z-1 h-full">
       <div class="absolute z-2 w-198 p-20 bg-gray-10 rounded-l-[20px] rounded-br-[80px]">
-        <h1 class="text-6xl font-medium">
+        <span
+          v-if="overline"
+          class="inline-block mb-2 text-xl"
+        >
+          {{ $t(overline) }}
+        </span>
+        <h1 class="text-6xl leading-18 font-medium">
           <i18n-t :keypath="title" tag="span" scope="global">
             <template v-slot:highlight>
             <span class="text-primary">{{ $t(highlight) }}</span>

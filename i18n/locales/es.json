@@ -394,5 +394,15 @@
       "description": "¿Listo para crecer profesionalmente en un entorno dinámico e innovador? Únete a YourBanK y construye una carrera gratificante donde tu talento, ideas y ambición puedan generar un impacto real.",
       "label": "Aplicar Ahora"
     }
+  },
+
+  "about": {
+    "hero": {
+      "overline": "Bienvenido a YourBanK",
+      "title": "Donde la Banca se Encuentra con la {highlight}",
+      "highlight": "Excelencia!",
+      "description": "En YourBanK, creemos que la banca debe ser más que solo transacciones. Debe ser una experiencia que impulse a individuos y empresas a prosperar y alcanzar sus metas financieras. Como una institución financiera de confianza, estamos comprometidos con ofrecer servicios bancarios excepcionales que superen las expectativas. Con un enfoque en la innovación, soluciones personalizadas e integridad inquebrantable, nos esforzamos por brindar la mejor experiencia bancaria a nuestros valiosos clientes. Únete a nosotros en este emocionante camino y descubre un nuevo nivel de excelencia bancaria.",
+      "image_alt": "Acerca de"
+    }
   }
 }
