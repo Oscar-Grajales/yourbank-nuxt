@@ -472,6 +472,33 @@
       "highlight": "Máxima Prioridad",
       "description": "En YourBank, entendemos la importancia de mantener segura tu información financiera. Implementamos sólidas medidas de seguridad y tecnologías avanzadas para proteger tus datos personales y financieros. Ten la tranquilidad de que cuando operas con nosotros, tu seguridad es nuestra máxima prioridad.",
       "image_alt": "Seguridad"
+    },
+
+    "protection": {
+      "header": {
+        "title": "Cómo te {highlight}",
+        "highlight": "Protegemos",
+        "description": "En YourBank, priorizamos la seguridad y confidencialidad de tu información financiera. Nuestra tecnología de cifrado de última generación y estrictas medidas de protección de datos garantizan que tus activos y transacciones estén protegidos en todo momento."
+      },
+
+      "features": {
+        "secure_platform": {
+          "title": "Plataforma de Banca en Línea Segura",
+          "description": "Nuestra plataforma de banca en línea está construida con múltiples capas de seguridad para proteger tu información. Utilizamos protocolos de cifrado estándar de la industria para garantizar que tus datos permanezcan confidenciales y protegidos durante la transmisión."
+        },
+        "mfa": {
+          "title": "Autenticación Multifactor",
+          "description": "Para reforzar la seguridad de tu experiencia bancaria en línea, empleamos autenticación multifactor. Esta capa adicional de seguridad requiere que proporciones múltiples formas de identificación, como una contraseña y un código de verificación de un solo uso, para acceder a tu cuenta."
+        },
+        "fraud_monitoring": {
+          "title": "Monitoreo de Fraude",
+          "description": "Contamos con sofisticados sistemas de detección de fraude para supervisar tus cuentas ante cualquier actividad sospechosa. Nuestro equipo especializado trabaja las 24 horas para detectar y prevenir transacciones no autorizadas, brindándote tranquilidad."
+        },
+        "secure_app": {
+          "title": "Banca Móvil Segura",
+          "description": "Nuestra aplicación de banca móvil está diseñada con el mismo nivel de seguridad que nuestra plataforma de banca en línea. Puedes acceder con confianza a tus cuentas, realizar transacciones y gestionar tus finanzas desde cualquier lugar, sabiendo que tu información está protegida."
+        }
+      }
     }
   }
 }
