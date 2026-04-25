@@ -519,5 +519,25 @@
       },
       "submit": "Login"
     }
+  },
+
+  "register": {
+    "title": "Sign Up",
+    "text": "Join our community today! Create an account to unlock exclusive features and personalized experiences.",
+    "form": {
+      "first_name": {
+        "placeholder": "Enter First Name"
+      },
+      "last_name": {
+        "placeholder": "Enter Last Name"
+      },
+      "email": {
+        "placeholder": "Enter your Email"
+      },
+      "password": {
+        "placeholder": "Enter your Password"
+      },
+      "submit": "Sign Up"
+    }
   }
 }

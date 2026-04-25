@@ -519,5 +519,25 @@
       },
       "submit": "Iniciar Sesión"
     }
+  },
+
+  "register": {
+  "title": "Regístrate",
+  "text": "¡Únete a nuestra comunidad hoy! Crea una cuenta para desbloquear funciones exclusivas y experiencias personalizadas.",
+  "form": {
+    "first_name": {
+      "placeholder": "Ingresa tu Nombre"
+    },
+    "last_name": {
+      "placeholder": "Ingresa tu Apellido"
+    },
+    "email": {
+      "placeholder": "Ingresa tu Email"
+    },
+    "password": {
+      "placeholder": "Ingresa tu Contraseña"
+    },
+    "submit": "Regístrate"
   }
+}
 }
