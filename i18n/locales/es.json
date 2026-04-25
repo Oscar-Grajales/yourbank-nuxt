@@ -6,10 +6,10 @@
     "home": "Inicio",
     "careers": "Carreras",
     "about": "Acerca de",
-    "security": "Seguridad"
+    "security": "Seguridad",
+    "sign_up": "Registrarse",
+    "login": "Acceder"
   },
-  "sign_up": "Registrarse",
-  "login": "Acceder",
 
   "audience": {
     "individuals": "Para particulares",
@@ -499,6 +499,25 @@
           "description": "Nuestra aplicación de banca móvil está diseñada con el mismo nivel de seguridad que nuestra plataforma de banca en línea. Puedes acceder con confianza a tus cuentas, realizar transacciones y gestionar tus finanzas desde cualquier lugar, sabiendo que tu información está protegida."
         }
       }
+    }
+  },
+
+  "auth": {
+    "forgot_password": "¿Olvidaste tu Contraseña?",
+    "or_continue_with": "O Continúa Con"
+  },
+
+  "login": {
+    "title": "Iniciar Sesión",
+    "text": "¡Bienvenido! Por favor inicia sesión para acceder a tu cuenta.",
+    "form": {
+      "email": {
+        "placeholder": "Ingresa tu Email"
+      },
+      "password": {
+        "placeholder": "Ingresa tu Contraseña"
+      },
+      "submit": "Iniciar Sesión"
     }
   }
 }

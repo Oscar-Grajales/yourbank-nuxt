@@ -6,10 +6,10 @@
     "home": "Home",
     "careers": "Careers",
     "about": "About",
-    "security": "Security"
+    "security": "Security",
+    "sign_up": "Sign Up",
+    "login": "Login"
   },
-  "sign_up": "Sign Up",
-  "login": "Login",
 
   "audience": {
     "individuals": "For individuals",
@@ -499,6 +499,25 @@
           "description": "Our mobile banking app is designed with the same level of security as our online banking platform. You can confidently access your accounts, make transactions, and manage your finances on the go, knowing that your information is protected."
         }
       }
+    }
+  },
+
+  "auth": {
+    "forgot_password": "Forgot Password?",
+    "or_continue_with": "Or Continue With"
+  },
+
+  "login": {
+    "title": "Login",
+    "text": "Welcome back! Please log in to access your account.",
+    "form": {
+      "email": {
+        "placeholder": "Enter your Email"
+      },
+      "password": {
+        "placeholder": "Enter your Password"
+      },
+      "submit": "Login"
     }
   }
 }

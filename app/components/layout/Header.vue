@@ -17,13 +17,13 @@
                     to="/sign-up"
                     class="mr-7.5"
                 >
-                    {{ $t('sign_up') }}
+                    {{ $t('navigation.sign_up') }}
                 </NuxtLinkLocale>
                 <NuxtLinkLocale
                     to="/sign-in"
                     class="btn btn-primary"
                 >
-                    {{ $t('login') }}
+                    {{ $t('navigation.login') }}
                 </NuxtLinkLocale>
                 <LanguageSwitcher class="ml-4" />
             </div>

@@ -8,6 +8,7 @@
     --color-gray-15: oklch(0.2686 0 0);
     --color-gray-30: oklch(0.4169 0.0016 286.33);
     --color-gray-70: oklch(0.7668 0 0);
+    --color-gray-75: oklch(0.8047 0 0);
 }
 
 @layer base {
