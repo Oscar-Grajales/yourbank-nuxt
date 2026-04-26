@@ -9,8 +9,8 @@
         </i18n-t>
       </template>
     </SectionHeader>
-    <div class="mt-20 flex gap-7.5">
-      <div class="shrink-0 w-fit h-fit p-12.5 bg-gray-11 rounded-xl flex flex-col space-y-6">
+    <div class="mt-12.5 md:mt-20 flex flex-col md:flex-row gap-7.5">
+      <div class="shrink-0 md:w-fit h-fit p-7.5 md:p-12.5 bg-gray-11 rounded-xl flex flex-col space-y-6">
         <button
           v-for="groupKey in groupKeys"
           :key="groupKey"
@@ -21,7 +21,7 @@
           {{ $t(`home.our_features.groups.${groupKey}.label`) }}
         </button>
       </div>
-      <div class="grid grid-cols-2 gap-7.5">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-7.5">
         <FeatureCard
           v-for="feature in groups[selectedGroup].features"
           :key="`${selectedGroup}-${feature}`"

@@ -1,23 +1,23 @@
 <template>
-  <div class="relative capitalize">
+  <div class="relative capitalize px-6 lg:px-15">
     <img
       src="~/assets/img/decorations/arrows-group.webp"
       alt=""
       aria-hidden="true"
-      class="absolute top-2.5 right-[-35%]"
+      class="absolute -top-5 lg:top-2.5 right-[-10%] md:right-[-35%] w-55 md:w-auto"
     >
-    <div class="absolute -left-11 -top-15 z-2 w-fit px-4.5 py-3.5 flex items-center gap-2 rounded-[10px] bg-[#22251B]">
+    <div class="absolute -top-8 md:-top-15 -left-2 md:-left-11 z-2 w-fit px-2.5 md:px-4.5 py-2 md:py-3.5 flex items-center gap-2 rounded-[10px] bg-[#22251B]">
       <IconContainer>
-        <PlusIcon />
+        <PlusIcon class="size-3 lg:size-5" />
       </IconContainer>
-      <div class="grid leading-8">
-        <span>+ $7,000.00</span>
-        <span class="text-sm font-light">{{ $t('home.hero.banking_preview.badge.text') }}</span>
+      <div class="grid leading-4 md:leading-8">
+        <span class="text-2xs md:text-base">+ $7,000.00</span>
+        <span class="text-3xs md:text-sm font-light">{{ $t('home.hero.banking_preview.badge.text') }}</span>
       </div>
     </div>
-    <div class="banking-preview relative w-129 p-8.5">
+    <div class="banking-preview relative w-auto md:w-129 p-5 lg:p-8.5">
       <div class="mb-6.5">
-        <p class="mb-4.5 font-medium">{{ $t('home.hero.banking_preview.transactions.title') }}</p>
+        <p class="mb-4.5 text-xs md:text-base font-medium">{{ $t('home.hero.banking_preview.transactions.title') }}</p>
         <div class="relative overflow-hidden -space-y-6">
           <div
             class="absolute z-10 w-full h-full bg-linear-to-b from-40% from-transparent to-gray-10"
@@ -37,52 +37,52 @@
                 <ExchangeIcon />
               </IconContainer>
               <div class="grid">
-                <span class="text-base font-light">{{ $t('home.hero.banking_preview.transactions.item_label') }}</span>
+                <span class="text-xs md:text-md font-light">{{ $t('home.hero.banking_preview.transactions.item_label') }}</span>
                 <span>{{ transaction.name }}</span>
               </div>
             </div>
-            <span class="text-xl font-medium">-$68.00</span>
+            <span class="text-sm md:text-xl font-medium">-$68.00</span>
           </div>
         </div>
       </div>
       <div>
-        <p class="mb-4.5 font-medium">{{ $t('home.hero.banking_preview.exchange.title') }}</p>
+        <p class="mb-4.5 text-xs md:text-base font-medium">{{ $t('home.hero.banking_preview.exchange.title') }}</p>
         <div class="bg-gray-11 border border-gray-15 divide-y divide-gray-15 rounded-[10px]">
           <div class="grid grid-cols-2 divide-x divide-gray-15">
-            <div class="p-4.5">
+            <div class="p-2.5 md:p-4.5">
               <div class="mb-2 flex items-center gap-2">
-                <img src="~/assets/img/flags/mexico.png" alt="Mexico flag" class="size-9 rounded-full object-cover">
-                <span class="text-base">MXN</span>
+                <img src="~/assets/img/flags/mexico.png" alt="Mexico flag" class="size-5 md:size-9 rounded-full object-cover">
+                <span class="text-[10px[ md:text-md">MXN</span>
               </div>
-              <p class="text-sm font-light">{{ $t('home.hero.banking_preview.exchange.mxn') }}</p>
+              <p class="text-3xs md:text-sm font-light">{{ $t('home.hero.banking_preview.exchange.mxn') }}</p>
             </div>
-            <div class="p-4.5">
+            <div class="p-2.5 md:p-4.5">
               <div class="mb-2 flex items-center gap-2">
-                <img src="~/assets/img/flags/united-states.png" alt="United States flag" class="size-9 rounded-full object-cover">
-                <span class="text-base">USD</span>
+                <img src="~/assets/img/flags/united-states.png" alt="United States flag" class="size-5 md:size-9 rounded-full object-cover">
+                <span class="text-[10px[ md:text-md">USD</span>
               </div>
-              <p class="text-sm font-light">{{ $t('home.hero.banking_preview.exchange.usd') }}</p>
+              <p class="text-3xs md:text-sm font-light">{{ $t('home.hero.banking_preview.exchange.usd') }}</p>
             </div>
           </div>
           <div class="grid grid-cols-2 divide-x divide-gray-15">
-            <div class="px-4.5 py-6.5">7,000.00</div>
-            <div class="px-4.5 py-6.5">400.00</div>
+            <div class="px-2.5 md:px-4.5 py-4 md:py-6.5">7,000.00</div>
+            <div class="px-2.5 md:px-4.5 py-4 md:py-6.5">400.00</div>
           </div>
         </div>
-        <div class="mt-6.5 p-3.5 bg-[#22251B] rounded-full text-base text-center text-primary">
+        <div class="mt-6.5 p-3.5 bg-[#22251B] rounded-full text-2xs md:text-base text-center text-primary">
           {{ $t('home.hero.banking_preview.exchange.button_text') }}
         </div>
       </div>
     </div>
-    <div class="translate-x-13 w-fit mt-3 ml-auto mb-4.5 p-2 flex items-center gap-2.5 bg-[#22251B] rounded-full">
-      <span class="ml-3 text-base">{{ $t('home.hero.banking_preview.supported_currency') }}</span>
-      <div class="p-2 flex gap-1.5 bg-gray-10 rounded-full">
+    <div class="translate-x-6 md:translate-x-13 w-fit mt-3 ml-auto mb-4.5 p-1.5 md:p-2 flex items-center gap-2.5 bg-[#22251B] rounded-full">
+      <span class="ml-3 text-2xs md:text-md">{{ $t('home.hero.banking_preview.supported_currency') }}</span>
+      <div class="p-1.5 md:p-2 flex gap-1.5 bg-gray-10 rounded-full">
         <div
           v-for="currency in supportedCurrencies"
           :key="currency.key"
-          class="size-9.5 flex justify-center items-center bg-gray-15 rounded-full text-primary"
+          class="size-5 md:size-9.5 flex justify-center items-center bg-gray-15 rounded-full text-primary"
         >
-          <component :is="currency.icon" />
+          <component :is="currency.icon" class="size-2.5 md:size-4" />
         </div>
       </div>
     </div>

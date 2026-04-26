@@ -1,6 +1,6 @@
 <template>
   <Section>
-    <div class="flex items-end justify-between gap-10">
+    <div class="flex flex-col md:flex-row items-end justify-center md:justify-between gap-10">
       <SectionHeader
         :description="$t('home.our_products.header.description')"
         class="max-w-228"
@@ -15,16 +15,16 @@
       </SectionHeader>
       <AudienceSwitcher v-model="audience" />
     </div>
-    <div class="mt-25 grid grid-cols-3 divide-x divide-gray-15">
+    <div class="mt-15 md:mt-25 px-2.5 grid grid-cols-1 md:grid-cols-3 max-md:divide-y md:divide-x divide-gray-15">
       <div
         v-for="product in individuals"
         :key="product.key"
-        class="px-12.5 py-7 text-center"
+        class="md:px-12.5 py-7 text-center"
       >
         <GlowIconContainer class="mb-7.5 mx-auto">
-          <component :is="product.icon" />
+          <component :is="product.icon" class="size-7 md:size-8.5" />
         </GlowIconContainer>
-        <p class="mb-5 text-2xl">{{ $t(`home.our_products.individuals.${product.key}.title`) }}</p>
+        <p class="mb-5 text-xl md:text-2xl">{{ $t(`home.our_products.individuals.${product.key}.title`) }}</p>
         <p class="text-gray-70 font-light">{{ $t(`home.our_products.individuals.${product.key}.description`) }}</p>
       </div>
     </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="p-3.5 flex shrink-0 bg-gray-11 border border-gray-15 rounded-full capitalize">
+  <div class="p-3 md:p-3.5 flex shrink-0 bg-gray-11 border border-gray-15 rounded-full capitalize">
     <button
       v-for="option in options"
       :key="option.key"

@@ -1,6 +1,6 @@
 <template>
   <Section>
-    <div class="cta relative flex items-center gap-37 p-20">
+    <div class="cta relative p-7.5 md:p-20 flex flex-col md:flex-row items-center gap-x-37 gap-y-6 text-center">
       <img
         src="~/assets/img/decorations/dot-mesh.webp"
         alt=""
@@ -8,7 +8,7 @@
         class="absolute top-0 left-0"
       >
       <div class="z-1">
-        <h2 class="text-[40px] leading-14">
+        <h2 class="text-2xl md:text-[40px] leading-10 md:leading-14">
           <i18n-t :keypath="title" tag="span" scope="global">
             <template v-slot:highlight>
               <span class="text-primary">{{ $t(highlight) }}</span>

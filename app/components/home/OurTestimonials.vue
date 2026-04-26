@@ -1,6 +1,6 @@
 <template>
   <Section>
-    <div class="flex items-end justify-between gap-10">
+    <div class="flex flex-col md:flex-row items-end justify-between gap-10">
       <SectionHeader
         :description="$t('home.testimonials.header.description')"
         class="max-w-228"
@@ -15,46 +15,49 @@
       </SectionHeader>
       <AudienceSwitcher v-model="audience" />
     </div>
-    <div class="relative h-full mt-25">
-      <ClientOnly>
-        <swiper-container
-          ref="containerRef"
-          :init="false"
-          class="h-full px-20"
-        >
-          <swiper-slide
-            v-for="testimonial in testimonials[audience]"
-            :key="testimonial"
+    <div class="relative">
+      <div class="relative z-1 h-full mt-12.5 md:mt-25 mb-10 md:mb-0">
+        <ClientOnly>
+          <swiper-container
+            ref="containerRef"
+            :init="false"
+            class="h-full md:px-20"
           >
-            <div class="text-center px-10">
-              <div class="flex items-center gap-5">
-                <div class="grow h-px bg-gray-15"></div>
-                <QuotesIcon />
-                <div class="grow h-px bg-gray-15"></div>
+            <swiper-slide
+              v-for="testimonial in testimonials[audience]"
+              :key="testimonial"
+            >
+              <div class="text-center px-4 md:px-10">
+                <div class="flex items-center gap-5">
+                  <div class="grow h-px bg-gray-15"></div>
+                  <QuotesIcon />
+                  <div class="grow h-px bg-gray-15"></div>
+                </div>
+                <p class="my-12">{{ $t(`home.testimonials.${audience}.${testimonial}.text`) }}</p>
+                <span class="text-primary font-medium">{{ $t(`home.testimonials.${audience}.${testimonial}.name`) }}</span>
               </div>
-              <p class="my-12">{{ $t(`home.testimonials.${audience}.${testimonial}.text`) }}</p>
-              <span class="text-primary font-medium">{{ $t(`home.testimonials.${audience}.${testimonial}.name`) }}</span>
-            </div>
-          </swiper-slide>
-        </swiper-container>
-      </ClientOnly>
+            </swiper-slide>
+          </swiper-container>
+        </ClientOnly>
+        <div class="absolute z-1 top-1/2 left-0 -translate-y-1/2 w-20 md:w-120 h-full bg-linear-to-r from-gray-10 to-transparent"></div>
+        <div class="absolute z-1 top-1/2 right-0 -translate-y-1/2 w-20 md:w-120 h-full bg-linear-to-l from-gray-10 to-transparent"></div>
+      </div>
 
-      <button 
-        class="slider-btn absolute z-2 top-1/2 left-0 -translate-y-1/2"
+      <div class="w-full md:absolute z-2 top-1/2 md:-translate-y-1/2 flex justify-center md:justify-between items-center gap-5">
+        <button
+        class="slider-btn md:absolute z-2 top-1/2 left-0 md:-translate-y-1/2"
         @click="swiper.prev()"
       >
         <ArrowLeftIcon />
       </button>
 
       <button
-        class="slider-btn absolute z-2 top-1/2 right-0 -translate-y-1/2"
+        class="slider-btn md:absolute z-2 md:top-1/2 right-0 md:-translate-y-1/2"
         @click="swiper.next()"
       >
         <ArrowRightIcon />
       </button>
-
-      <div class="absolute z-1 top-1/2 left-0 -translate-y-1/2 w-138 h-full ml-20 bg-linear-to-r from-gray-10 to-transparent"></div>
-      <div class="absolute z-1 top-1/2 right-0 -translate-y-1/2 w-138 h-full mr-20 bg-linear-to-l from-gray-10 to-transparent"></div>
+      </div>
     </div>
   </Section>
 </template>
@@ -110,5 +113,6 @@ const testimonials = {
   background-color: var(--color-gray-11);
   border: 1px solid var(--color-gray-15);
   border-radius: calc(infinity * 1px);
+  cursor: pointer;
 }
 </style>

@@ -5,13 +5,13 @@
         <span class="text-primary">{{ $t('home.use_cases.header.title') }}</span>
       </template>
     </SectionHeader>
-    <div class="mt-20 grid grid-cols-2 place-items-center gap-25">
-      <div class="relative p-12.5 grid grid-cols-2 gap-5 bg-gray-11 rounded-[20px]">
+    <div class="mt-15 md:mt-20 grid grid-cols-1 md:grid-cols-2 place-items-center gap-x-25 gap-y-15">
+      <div class="relative p-5 md:p-12.5 grid grid-cols-2 gap-5 bg-gray-11 rounded-[20px]">
         <img
           src="~/assets/img/decorations/dot-mesh.webp"
           alt=""
           aria-hidden="true"
-          class="absolute top-0 left-0"
+          class="absolute top-0 left-0 w-30 md:w-auto"
         >
         <UseCaseCard
           v-for="useCase in individuals.cases"
@@ -20,10 +20,10 @@
           :icon="useCase.icon"
         />
       </div>
-      <div>
-        <h3 class="mb-3.5 text-3xl font-medium">{{ $t('home.use_cases.individuals.title') }}</h3>
+      <div class="text-center md:text-left">
+        <h3 class="mb-3.5 text-xl md:text-3xl font-medium">{{ $t('home.use_cases.individuals.title') }}</h3>
         <p class="text-gray-70 font-light">{{ $t('home.use_cases.individuals.description') }}</p>
-        <div class="py-15.5 grid grid-cols-3 divide-x divide-gray-15">
+        <div class="py-12.5 md:py-15.5 grid grid-cols-1 md:grid-cols-3 divide-x divide-gray-15">
           <Stat
             v-for="(stat, index) in individuals.stats"
             :key="stat.key"
@@ -34,11 +34,11 @@
         <NuxtLink class="btn btn-secondary">{{ $t('home.use_cases.cta_label') }}</NuxtLink>
       </div>
     </div>
-    <div class="mt-20 grid grid-cols-2 place-items-center gap-25">
-      <div>
-        <h3 class="mb-3.5 text-3xl font-medium">{{ $t('home.use_cases.businesses.title') }}</h3>
+    <div class="mt-20 grid grid-cols-1 md:grid-cols-2 place-items-center gap-x-25 gap-y-15">
+      <div class="text-center md:text-left">
+        <h3 class="mb-3.5 text-xl md:text-3xl font-medium">{{ $t('home.use_cases.businesses.title') }}</h3>
         <p class="text-gray-70 font-light">{{ $t('home.use_cases.businesses.description') }}</p>
-        <div class="py-15.5 grid grid-cols-3 divide-x divide-gray-15">
+        <div class="px-12 md:px-0 py-12.5 md:py-15.5 grid grid-cols-1 md:grid-cols-3 max-md:divide-y md:divide-x divide-gray-15">
           <Stat
             v-for="(stat, index) in businesses.stats"
             :key="stat.key"

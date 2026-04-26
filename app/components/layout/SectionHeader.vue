@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h2 class="mb-3.5 text-5xl font-medium">
+  <div class="text-center md:text-left">
+    <h2 class="mb-3.5 text-[28px] md:text-5xl font-medium">
       <slot name="title">
         {{ title }}
       </slot>

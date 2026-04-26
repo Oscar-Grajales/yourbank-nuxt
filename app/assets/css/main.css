@@ -2,6 +2,11 @@
 @import "tailwindcss";
 
 @theme {
+    --text-3xs: 8px;
+    --text-2xs: 10px;
+    --text-md: 16px;
+    --text-base: var(--text-lg);
+
     --color-primary: oklch(0.9306 0.2184 124.08);
     --color-gray-10: oklch(0.2134 0 0);
     --color-gray-11: oklch(0.2264 0 0);
@@ -9,6 +14,7 @@
     --color-gray-30: oklch(0.4169 0.0016 286.33);
     --color-gray-70: oklch(0.7668 0 0);
     --color-gray-75: oklch(0.8047 0 0);
+    --color-white-90: oklch(0.9197 0.004 286.32);
 }
 
 @layer base {
@@ -19,18 +25,27 @@
     body {
         font-family: 'Lexend', sans-serif;
         background-color: var(--color-gray-10);
-        font-size: var(--text-lg);
+        font-size: var(--text-sm);
         color: var(--color-white);
         overflow-x: clip;
+
+        @media(min-width: 768px) {
+            font-size: var(--text-lg);
+        }
     }
 }
 
 @layer components {
     .btn {
         display: inline-flex;
+        justify-content: center;
         border-radius: calc(infinity * 1px);
-        padding: 14px 30px;
+        padding: 14px 24px;
         cursor: pointer;
+
+        @media(min-width: 1024px) {
+            padding: 14px 30px;
+        }
     }
 
     .btn-primary {
